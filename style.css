@@ -5,6 +5,21 @@ body {
     background-color: #f0f0f0;
 }
 
+.skip-link{
+    background:black;
+    color:#FFFFFF;
+    font-weight:700;
+    padding:4px;
+    position: absolute;
+    transform: translateY(-200%);
+}
+.skip-link:focus{
+    transform: translateY(-0%);
+}
+.skip-link{
+    transition: transform 0.3s;
+}
+
 header {
     background-color: #007BFF;
     color: #fff;
@@ -17,12 +32,70 @@ h1 {
     font-size: 36px;
 }
 
-.container {
-    max-width: 800px;
+h2{
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+    font-size: 16px;
+}
+
+.mainbody {
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: (175,222,176);
+    display:grid;
+    width: 100vw;
+    height:100vh;
+    grid-template-columns: 
+    2fr     2fr;
+    grid-template-areas: 
+    "heady heady"
+    "toc toc "
+    "aboutme img"
+    "aboutme img"
+    "proj proj";
+  }
+
+#heady {grid-area:heady;}
+#table-of-contents {grid-area: toc;}
+#aboutme {grid-area: aboutme;}
+#my-image {grid-area: img;}
+#projects {grid-area: proj;}
+
+@media screen
+  and (max-width: 640px)  {
+.container {
+grid-template-columns:
+   1fr;
+grid-template-areas:
+  "heady"
+  "toc"
+  "aboutme"
+  "img"
+  "proj";
+}
+nav ul {
+  flex-flow: column nowrap;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 10px 5px;
+  margin: 5px;
+  border: 1px black solid;
+  background: white;
+
+}
 }
 
 nav {
