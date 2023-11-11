@@ -21,12 +21,26 @@ body {
 }
 
 header {
-    background-color: #007BFF;
+    background-color: #000D70;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
+a {
+    color: #0018CC;
+}
 
+a:visited {
+    color: #0018CC;
+}
+
+a:hover {
+    color: #0018CC;
+}
+
+a:active {
+    color: #0018CC;
+}
 h1 {
     margin: 0;
     font-size: 36px;
