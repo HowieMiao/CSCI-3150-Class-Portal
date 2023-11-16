@@ -17,7 +17,7 @@ body {
   
   }
 .skip-link{
-    background:black;
+    background:darkgreen;
     color:#FFFFFF;
     font-weight:700;
     padding:4px;
@@ -38,19 +38,21 @@ header {
     padding: 20px 0;
 }
 a {
-    color: #0018CC;
+    padding: 10px;
+    background-color: black;
+    color: #78DDFF;
 }
 
 a:visited {
-    color: #0018CC;
+    color: #78DDFF;
 }
 
 a:hover {
-    color: #0018CC;
+    color: #78DDFF;
 }
 
 a:active {
-    color: #0018CC;
+    color: #78DDFF;
 }
 h1 {
     margin: 0;
