@@ -99,7 +99,6 @@ p {
     "aboutme img"
     "proj proj";
   }
-
 #heady {grid-area:heady;}
 #table-of-contents {grid-area: toc;}
 #aboutme {grid-area: aboutme;}
