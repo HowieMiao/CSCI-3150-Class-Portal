@@ -38,21 +38,28 @@ header {
     padding: 20px 0;
 }
 a {
+    font-weight: bold;
     padding: 10px;
-    background-color: black;
-    color: #78DDFF;
+    text-decoration: underline;
+    color: black;
 }
 
 a:visited {
-    color: #78DDFF;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #78DDFF;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 a:active {
-    color: #78DDFF;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
 }
 h1 {
     margin: 0;
