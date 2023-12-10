@@ -38,27 +38,24 @@ header {
     padding: 20px 0;
 }
 a {
-    font-weight: bold;
     padding: 10px;
+    background-color: black;
     text-decoration: underline;
-    color: black;
+    color: #78DDFF;
 }
 
 a:visited {
-    color: black;
-    font-weight: bold;
+    color: #78DDFF;
     text-decoration: underline;
 }
 
 a:hover {
-    color: black;
-    font-weight: bold;
+    color: #78DDFF;
     text-decoration: underline;
 }
 
 a:active {
-    color: black;
-    font-weight: bold;
+    color: #78DDFF;
     text-decoration: underline;
 }
 h1 {
@@ -99,6 +96,7 @@ p {
     "aboutme img"
     "proj proj";
   }
+
 #heady {grid-area:heady;}
 #table-of-contents {grid-area: toc;}
 #aboutme {grid-area: aboutme;}
